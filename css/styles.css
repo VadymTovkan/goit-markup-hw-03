@@ -17,6 +17,7 @@ ul {
 
 .nav-list {
   display: flex;
+  align-items: baseline;
 }
 
 .container {
@@ -28,9 +29,17 @@ ul {
   margin-left: auto;
 }
 
+.container_4 {
+  margin-right: 30px;
+  margin-top: 30px;
+  background-color: ;
+  display: flex;
+}
+
 .container_3 li {
   margin-right: 30px;
   margin-top: 30px;
+  background-color: ;
 }
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
@@ -72,6 +81,12 @@ ul {
 
 .section_title {
   color: #212121;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.section_title1 {
+  color: #212121;
 }
 
 .section_description {
@@ -80,6 +95,8 @@ ul {
 
 .section_4 {
   background: #f5f4fa;
+  margin-right: 30px;
+  margin-top: 30px;
 }
 
 /* button */
@@ -94,4 +111,8 @@ ul {
 .button:focus {
   color: #fff;
   background: #2196f3;
+}
+.footer {
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
 }
